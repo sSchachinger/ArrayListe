@@ -47,5 +47,10 @@ namespace libArrayList
         /// <param name="index"></param>
         /// <param name="value"></param>
         void InsertAt(int index, T value);
+        /// <summary>
+        /// Gets the value by index
+        /// </summary>
+        /// <param name="index"></param>
+        T Indexer(int index);
     }
 }

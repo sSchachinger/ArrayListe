@@ -58,6 +58,13 @@ namespace libArrayList
             return true;
         }
 
+        public T Indexer(int index)
+        {
+            if (index > Count)
+                throw new ArgumentOutOfRangeException("index");
+            return array[index];
+        }
+
         public void InsertAt(int index, T value)
         {
             if (index > _length)
