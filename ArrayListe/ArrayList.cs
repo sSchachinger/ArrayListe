@@ -14,7 +14,7 @@ namespace libArrayList
 
         public ArrayList()
         {
-            array = new T[0];
+            array = new T[10];
             Count = 0;
         }
         public ArrayList(int length)
